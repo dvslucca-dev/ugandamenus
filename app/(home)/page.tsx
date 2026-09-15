@@ -18,16 +18,9 @@ export default function Home() {
               borderRadius: 10, 
               display: 'flex', 
               alignItems: 'center', 
-              justifyContent: 'center',
-              padding: 6
+              justifyContent: 'center'
             }}>
-              <img 
-                src="http://ugandanmenus.com/wp-content/uploads/2026/02/cropped-UgandanmenusQRcode.png" 
-                alt="UgandanMenus" 
-                width={24} 
-                height={24}
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
+              <span style={{ color: 'white', fontWeight: 700, fontSize: 18, lineHeight: 1 }}>U</span>
             </div>
             <span className="logo-text">UgandanMenus</span>
           </a>
